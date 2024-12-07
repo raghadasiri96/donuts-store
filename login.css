@@ -31,6 +31,7 @@ header a:hover {
 
 header s:active {
     color: rgb(232, 30, 57);
+    
 }
 
 nav ul li {
@@ -61,7 +62,11 @@ h2{
     text-align: center;
 }
 
-
+.col1{
+  margin-left: 360px;
+  margin-left: 464px;
+  margin-right: 404px;
+}
 .container {
     position: relative;
     border-radius: 5px;
@@ -69,7 +74,7 @@ h2{
     padding: 20px 52px 30px 67px;
 }
 
-/* style inputs and link buttons */
+
 input,
 .btn {
   width: 100%;
@@ -81,7 +86,7 @@ input,
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  text-decoration: none; 
 }
 
 input:hover,
@@ -89,7 +94,7 @@ input:hover,
   opacity: 1;
 }
 
-/* add appropriate colors to fb, twitter and google buttons */
+
 .fb {
   background-color: #3B5998;
   color: white;
@@ -105,7 +110,7 @@ input:hover,
   color: white;
 }
 
-/* style the submit button */
+
 input[type=submit] {
     background-color: #b91163;
   color: white;

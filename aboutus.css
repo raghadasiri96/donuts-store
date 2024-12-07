@@ -1,0 +1,121 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255 240 246);
+}
+
+#logo {
+    width: 100px;
+    padding-left: 24px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px ;
+    font-weight: bold;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+a:link {
+    color: rgb(178, 78, 158);
+    }
+a:visited {
+     color: rgb(185, 17, 99);
+    }
+a:hover{
+        color: rgb(130, 8, 8);
+    }
+s:active{
+        color: rgb(232, 30, 57);
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-left: 175px;
+    }
+    nav ul {
+        margin-right: 61px;
+        margin-top: -71px;
+        margin-left: 156px;
+        border: double rgb(242, 124, 151) 4px;
+    }
+    header{
+       
+        height: 110px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+     }
+   
+     #intro .description p {
+        width: 625px;
+        font-size: 22px;
+        color: #7f6c61;
+        text-align: justify;
+    }
+    #intro h1 {
+        margin-left: 263px;
+        margin-bottom: 20px;
+        color: #713323;
+    }
+    
+    #intro img {
+        padding-top: 101px;
+        height: 587px;
+        width: 587px;
+        padding-left: 11%;
+    }
+    
+    .description {
+        float: right;
+        padding-right: 100px;
+        position: relative;
+        top: 100px;
+    }
+    
+    #intro {
+        position: relative;
+        top: -50px;
+    }
+     
+    
+footer{
+    height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.flexFooter img {
+    margin-top: -40px;
+    margin-left: -115px;
+    width: 240px;
+}
+.flexFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -323px;
+    margin-bottom: -52px;
+    padding-top: 100px;
+
+}
+li {
+    list-style: circle;
+}
+.contact .info {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    position: relative;
+    top: -115px;
+    right: -606px;
+    list-style: none;}
+
+.contact {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    margin-left: -539px;
+}
+.copyright {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+
+}

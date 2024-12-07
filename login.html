@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF -8">
+  <meta name="viewport" content="width=device-width , initial-scale =1.0">
+  <meta name="keywords" content="html , css">
+  <meta name="description"
+    content="Shop exclusive merch and apparel from the Donut Media Official Store. Hoodies, tee shirts, posters, accessories, and more.">
+  <meta name="author" content=" Donuts">
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <script src="fontawesome-free-6.7.1-web/js/all.js" crossorigin="anonymous"></script>
+   
+  <title> web page Design </title>
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img id="logo" src="donutlogo.png" alt="DonutsLogo">
+      <ul>
+        <li><a href="login.html">Login</a> </li>
+        <li><a href="donuts.html">HOME</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html"> Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <form >
+        <div class="row">
+          <h2 style="text-align:center">Login with Social Media or Manually</h2>
+          <div class="vl">
+            <span class="vl-innertext"></span>
+          </div>
+    
+          <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fa-brands fa-facebook"></i> Login with Facebook
+            </a>
+            <a href="#" class="twitter btn">
+              <i class="fa-brands fa-twitter"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn">
+              <i class="fa-brands fa-square-google-plus"></i> Login with Google+
+            </a>
+          </div>
+    
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
+            </div>
+    
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+          </div>
+    
+        </div>
+      </form>
+    </div>
+    
+    <div class="bottom-container">
+      <div class="row">
+        <div class="col">
+          <a href="sighnup.html" style="color:white" class="btn" >Sign up</a>
+        </div>
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Forgot password?</a>
+        </div>
+      </div>
+    </div>
+    <h2>Modal Signup Form</h2>
+
+
+    
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" >
+        <div class="container1">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+        
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    
+  </main>
+  <footer>
+    <div class="flexFooter">
+      <div>
+        <img src="donut_detail_1-0016_2022-removebg-preview.png">
+      </div>
+      <div class="contact">
+        <ul class="SM">
+          <P> Why You'll Love It: </P>
+          <li>Freshly Made Donuts: Baked daily for that perfect soft and crispy bite.</li>
+          <li>Variety of Flavors: Mix and match classic and unique donut options.</li>
+          <li>Perfect Pairing: Enjoy your donuts with a beverage of your choice, on us!</li>
+        </ul>
+
+
+        <ul class="info">
+          <P>Contact US</P>
+          <li><i class="fa-solid fa-house"></i>Jordan - Amman</li>
+          <li><i class="fa-solid fa-envelope"></i> dountstore@gmail.com</li>
+          <li> <i class="fa-solid fa-phone"></i> 00962789101617</li>
+        </ul>
+
+
+      </div>
+
+    </div>
+    <div class="copyright">
+      <p>2024 &copy; Donut Store Content</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>

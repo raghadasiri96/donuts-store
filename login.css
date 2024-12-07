@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 130px;
+    padding-left: 24px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+header a:link {
+    color: rgb(178, 78, 158);
+}
+
+header a:visited {
+    color: rgb(185, 17, 99);
+}
+
+header a:hover {
+    color: rgb(130, 8, 8);
+}
+
+header s:active {
+    color: rgb(232, 30, 57);
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 175px;
+}
+
+nav ul {
+    margin-right: 61px;
+    margin-top: -95px;
+    margin-left: 156px;
+    border: double rgb(242, 124, 151) 4px;
+}
+
+header {
+    background-color: rgb(255 240 246);
+    height: 150px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h2{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color: #b30855;
+    padding-bottom: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff0f6;
+    padding: 20px 52px 30px 67px;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+    background-color: #b91163;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6d2557;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+    float: left;
+    width: 45%;
+    margin-left: 76px;
+    margin-right: -212px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-left: 155px;
+    margin-top: 6px;
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #c33279;
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexFooter img {
+    margin-top: -40px;
+    margin-left: -115px;
+    width: 240px;
+}
+
+.flexFooter {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    background-color: rgb(255 240 246);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -323px;
+    margin-bottom: -52px;
+    padding-top: 100px;
+
+}
+
+li {
+    list-style: circle;
+}
+
+.contact .info {
+    position: relative;
+    top: -105px;
+    right: -578px;
+    list-style: none;
+}
+
+.contact {
+    margin-left: -539px;
+}
+.copyright {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    text-align: center;
+}
